@@ -1,3 +1,35 @@
-build/*
-.trace
-.coverage*
+# Sui Move build artifacts
+build/
+
+# Deployment files (optional - you may want to commit some of these)
+deployments/*/deployment_*.json
+deployments/*/.env
+deployments/*/upgrades/
+
+# Keep deployment summaries (optional)
+# !deployments/*/latest.json
+
+# Node modules for TypeScript scripts
+scripts/node_modules/
+scripts/package-lock.json
+scripts/pnpm-lock.yaml
+scripts/yarn.lock
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+.cache/

@@ -1,0 +1,29 @@
+{
+  "name": "escrow-deployment-scripts",
+  "version": "1.0.0",
+  "description": "Deployment and management scripts for Sui Move Escrow Contract",
+  "scripts": {
+    "deploy:devnet": "tsx deploy.ts devnet",
+    "deploy:testnet": "tsx deploy.ts testnet",
+    "deploy:mainnet": "tsx deploy.ts mainnet",
+    "deploy:local": "tsx deploy.ts localnet"
+  },
+  "keywords": [
+    "sui",
+    "move",
+    "blockchain",
+    "escrow",
+    "deployment"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "tsx": "^4.7.0",
+    "typescript": "^5.3.0"
+  },
+  "dependencies": {
+    "@mysten/sui.js": "^0.54.0"
+  }
+}
+
