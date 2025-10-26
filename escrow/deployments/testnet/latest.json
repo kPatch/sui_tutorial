@@ -1,0 +1,14 @@
+{
+  "network": "testnet",
+  "packageId": "0x2b8edb0c597ab49c215d4d9e3f71f227c2bc196c5b8a3a6c11a6dd6b239f8277",
+  "upgradeCapId": "0xbddb4e2cd7a35bf1710d98de43588e55a81c18102ee5a8b110c8a2d68532d768",
+  "deployer": "0x999ccefccbb99b76bff30d1aa88c8964a507b8e1c6c073c2283364db3c4a6fb8",
+  "timestamp": "2024-10-26T04:48:00Z",
+  "gasUsed": {
+    "computationCost": "1000000",
+    "storageCost": "15542000",
+    "storageRebate": "978120",
+    "totalGas": "15563880"
+  },
+  "digest": "5sJ4V1V7FV6Z5qnukH7YrMjKNWiZkfhFUwFbbqm5rzJX"
+}
