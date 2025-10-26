@@ -1,0 +1,26 @@
+{
+  "name": "escrow-e2e-tests",
+  "version": "1.0.0",
+  "description": "End-to-end tests for Sui Move Escrow smart contract",
+  "scripts": {
+    "generate-keys": "npx ts-node generate-keys.ts",
+    "test:basic": "npx ts-node basic-escrow-test.ts",
+    "test:swap": "npx ts-node swap-test.ts",
+    "test:security": "npx ts-node security-test.ts",
+    "test:coin": "npx ts-node coin-escrow-test.ts",
+    "test:all": "npm run test:basic && npm run test:swap && npm run test:coin && npm run test:security"
+  },
+  "dependencies": {
+    "@mysten/sui": "^1.38.0",
+    "dotenv": "^16.4.5",
+    "typescript": "^5.3.3",
+    "ts-node": "^10.9.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.5"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
+
